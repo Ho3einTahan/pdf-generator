@@ -1,17 +1,25 @@
-#### Pdf Generator Using python
+# 📝 Pdf Generator Using Python
 
-#### ✅ Main Features of the Project :
-4. Generate PDF Report Using Html
+---
 
-#### 🛠️ Libraries Used:
-1. pdfkit
+## ✅ Main Features of the Project
+- Generate PDF Report Using **HTML**
 
-#### Screen Shot :
-<img src="https://github.com/Ho3einTahan/pdf-generator/blob/main/images/pdf.shot.png">
+---
 
-#### ⚠️ Attention :
-1. You Need To Install `wkhtmltopdf` from `https://wkhtmltopdf.org/downloads.html`
-2. 📌 Make sure the following path exists on your computer :
+## 🛠️ Libraries Used
+- `pdfkit`
+
+---
+
+## 📸 Screenshot
+<img src="https://raw.githubusercontent.com/Ho3einTahan/pdf-generator/main/images/pdf.shot.png" alt="PDF Screenshot" width="600"/>
+
+---
+
+## ⚠️ Attention
+1. You need to install [`wkhtmltopdf`](https://wkhtmltopdf.org/downloads.html)  
+2. 📌 Make sure the following path exists on your computer:
 ``` python 
 config = pdfkit.configuration(wkhtmltopdf=r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
 ```
